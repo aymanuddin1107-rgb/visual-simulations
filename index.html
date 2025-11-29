@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Visual Simulations</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="sidebar">
+        <h2>Simulations</h2>
+
+        <select id="simSelect">
+            <option value="particles">Particles</option>
+            <option value="solarSystem">Solar System</option>
+            <option value="boids">Boids (Flocking)</option>
+            <option value="traffic">Traffic Simulation</option>
+            <option value="neuralNet">Neural Network</option>
+        </select>
+
+        <h3>Parameters</h3>
+        <div id="controls"></div>
+
+        <h3>Real-Time Chart</h3>
+        <canvas id="chartCanvas"></canvas>
+    </div>
+
+    <main>
+        <canvas id="simCanvas"></canvas>
+    </main>
+
+    <script src="libs/chart.min.js"></script>
+    <script src="libs/utils.js"></script>
+
+    <script src="simulations/particles.js"></script>
+    <script src="simulations/solarSystem.js"></script>
+    <script src="simulations/boids.js"></script>
+    <script src="simulations/traffic.js"></script>
+    <script src="simulations/neuralNet.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
