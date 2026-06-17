@@ -2,7 +2,7 @@
 
 A desktop AI with a pulse. Nova is a JARVIS-style assistant for Windows that listens, thinks out loud, and talks back — with an actual personality, powered by the Claude API.
 
-🔗 **Live page:** https://nova.github.ai/nova
+🔗 **Live page:** https://nova.github.io/nova
 
 ---
 
